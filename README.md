@@ -55,6 +55,8 @@ To make the setup closer to a real IT environment, I added a second Windows Serv
 
 Finally, I joined a Windows 10 client to the domain. The whole setup runs in VMware on my laptop, which let me simulate a small enterprise network end-to-end: managing users, troubleshooting login issues, fixing mapped drives, and resolving permissions problems on shared folders, using the same tools (ADUC, Group Policy, Command Prompt) I'd rely on day to day.
 
+![iinstallation setup](screenshorts/installing_setup.png)
+
 ---
 
 ## 📂 Organizing The Directory
@@ -91,7 +93,7 @@ This mirrors a real-world task — it's the kind of script a helpdesk tech might
 
 ![user-creating](screenshorts/user_create.png)
 
-Output from the bulk user creation script — 49 created, 1 skipped because that user already existed.
+Output from the bulk user creation script.
 
 ![organization unit](screenshorts/organization_users.png)
 
