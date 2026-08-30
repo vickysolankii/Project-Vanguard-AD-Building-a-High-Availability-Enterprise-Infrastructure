@@ -63,6 +63,9 @@ Active Directory uses Organizational Units (OUs) as folders for organizing users
 
 I set up a structure with a top-level **USA** OU containing sub-folders for different types of objects:
 
+![Lab environment diagram](screenshorts/ad_domain_tree.png)
+
+
 ```
 USA
 ├── Departments
