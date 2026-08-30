@@ -65,7 +65,30 @@ I set up a structure with a top-level **USA** OU containing sub-folders for diff
 
 ![Lab environment diagram](screenshorts/ad_domain_tree.png)
 
-This separation matters because it lets Group Policy and permissions be applied to a specific set of objects without affecting others — for example, a policy targeting workstations doesn't accidentally hit a server.
+
+Here's a clean, simple version of that section — matches the tone and format of the rest of your README:
+
+---
+
+## 👥 Creating Users & Groups
+
+I created six security groups, one for each department: Accounting, HR, IT, Marketing, Sales, and Executives.
+
+After that, I added around 50 user accounts. Instead of using boring names like `test1`, `test2`, I themed them after famous explorers — Ernest Shackleton, Buzz Aldrin, and others — just to make the lab more fun to work in.
+
+Rather than creating each user manually in ADUC (which would mean clicking through the same steps 50 times), I wrote a PowerShell script to do it all at once. The script:
+
+- Goes through a list of users
+- Creates each account
+- Places it in the correct department OU
+- Sets a temporary password
+- Adds the user to their department's security group
+
+This mirrors a real-world task — it's the kind of script a helpdesk tech might run when onboarding a batch of new hires all at once.
+
+---
+
+
 
 
 ---
