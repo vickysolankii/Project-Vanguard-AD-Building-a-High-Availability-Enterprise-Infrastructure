@@ -91,6 +91,8 @@ This mirrors a real-world task — it's the kind of script a helpdesk tech might
 
 ![user-creating](screenshorts/user_create.png)
 
+Output from the bulk user creation script — 49 created, 1 skipped because that user already existed.
+
 ![organization unit](screenshorts/organization_users.png)
 
 
