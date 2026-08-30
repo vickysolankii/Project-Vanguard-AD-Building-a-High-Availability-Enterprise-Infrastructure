@@ -55,7 +55,15 @@ To make the setup closer to a real IT environment, I added a second Windows Serv
 
 Finally, I joined a Windows 10 client to the domain. The whole setup runs in VMware on my laptop, which let me simulate a small enterprise network end-to-end: managing users, troubleshooting login issues, fixing mapped drives, and resolving permissions problems on shared folders, using the same tools (ADUC, Group Policy, Command Prompt) I'd rely on day to day.
 
-![iinstallation setup](screenshorts/installing_setup.png)
+![iinstallation setup](screenshorts/installation_setup.png.png)
+
+Server Manager showing the three roles installed: Active Directory, DNS, and File Server.
+
+<img width="1371" height="537" alt="image" src="https://github.com/user-attachments/assets/2562284a-bbe1-4d28-9445-3e207dc60733" />
+
+The Windows 10 client successfully joined to the itsupport.tech domain.
+
+
 
 ---
 
@@ -68,7 +76,7 @@ I set up a structure with a top-level **USA** OU containing sub-folders for diff
 ![Lab environment diagram](screenshorts/ad_domain_tree.png)
 
 
-Here's a clean, simple version of that section — matches the tone and format of the rest of your README:
+
 
 ---
 
