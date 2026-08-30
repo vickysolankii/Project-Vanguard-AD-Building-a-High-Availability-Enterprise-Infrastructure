@@ -60,7 +60,8 @@ Finally, I joined a Windows 10 client to the domain. The whole setup runs in VMw
 
 Server Manager showing the three roles installed: Active Directory, DNS, and File Server.
 
-<img width="1371" height="537" alt="image" src="https://github.com/user-attachments/assets/2562284a-bbe1-4d28-9445-3e207dc60733" />
+<img width="1064" height="662" alt="image" src="https://github.com/user-attachments/assets/f92d9a18-7b11-4352-bd21-bda9ee23d091" />
+
 
 The Windows 10 client successfully joined to the itsupport.tech domain.
 
