@@ -67,15 +67,7 @@ I set up a structure with a top-level **USA** OU containing sub-folders for diff
 
 
 ```
-USA
-├── Departments
-│   ├── HR
-│   ├── IT
-│   ├── Finance
-│   └── Sales
-├── Computers
-├── Groups
-└── Service Accounts
+This separation matters because it lets Group Policy and permissions be applied to a specific set of objects without affecting others — for example, a policy targeting workstations doesn't accidentally hit a server.
 ```
 
 ---
