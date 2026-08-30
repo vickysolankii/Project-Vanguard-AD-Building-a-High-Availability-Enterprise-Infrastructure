@@ -65,9 +65,7 @@ I set up a structure with a top-level **USA** OU containing sub-folders for diff
 
 ![Lab environment diagram](screenshorts/ad_domain_tree.png)
 
-
-```
 This separation matters because it lets Group Policy and permissions be applied to a specific set of objects without affecting others — for example, a policy targeting workstations doesn't accidentally hit a server.
-```
+
 
 ---
