@@ -55,7 +55,8 @@ To make the setup closer to a real IT environment, I added a second Windows Serv
 
 Finally, I joined a Windows 10 client to the domain. The whole setup runs in VMware on my laptop, which let me simulate a small enterprise network end-to-end: managing users, troubleshooting login issues, fixing mapped drives, and resolving permissions problems on shared folders, using the same tools (ADUC, Group Policy, Command Prompt) I'd rely on day to day.
 
-![iinstallation setup](screenshorts/installation_setup.png.png)
+![iinstallation setup](screenshorts/installation_setup.png)
+
 
 Server Manager showing the three roles installed: Active Directory, DNS, and File Server.
 
