@@ -87,10 +87,13 @@ Rather than creating each user manually in ADUC (which would mean clicking throu
 This mirrors a real-world task — it's the kind of script a helpdesk tech might run when onboarding a batch of new hires all at once.
 
 ---
+![user-creating](screenshorts/workstation.png)
+
+![user-creating](screenshorts/user_create.png)
 
 ![organization unit](screenshorts/organization_users.png)
 
-![user-creating](screenshorts/user_create.png)
+
 
 
 
