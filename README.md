@@ -88,6 +88,9 @@ This mirrors a real-world task — it's the kind of script a helpdesk tech might
 
 ---
 
+![organization unit](screenshorts/organization_users.png)
+
+![user-creating](screenshorts/user_create.png)
 
 
 
